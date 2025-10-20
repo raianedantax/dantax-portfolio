@@ -33,7 +33,7 @@ function Contact() {
           <p
             style={{
               fontSize: '18px',
-              color: '#8888aa',
+              color: '#fff',
               marginTop: '24px',
               maxWidth: '512px',
               margin: '24px auto 0',
@@ -62,7 +62,7 @@ function Contact() {
               <p
                 style={{
                   fontSize: '18px',
-                  color: '#8888aa',
+                  color: '#fff',
                   lineHeight: 1.7,
                   marginBottom: '24px',
                 }}
@@ -98,7 +98,7 @@ function Contact() {
                   <div style={{ color: '#00ffff', fontWeight: 600 }}>
                     E-mail
                   </div>
-                  <div style={{ color: '#8888aa' }}>raianedantax@gmail.com</div>
+                  <div style={{ color: '#fff' }}>raianedantax@gmail.com</div>
                 </div>
               </div>
 
@@ -121,7 +121,7 @@ function Contact() {
                 </div>
                 <div>
                   <div style={{ color: '#ff00ff', fontWeight: 600 }}>Phone</div>
-                  <div style={{ color: '#8888aa' }}>+55 (11) 99999-9999</div>
+                  <div style={{ color: '#fff' }}>+55 (11) 99999-9999</div>
                 </div>
               </div> */}
 
@@ -146,7 +146,7 @@ function Contact() {
                   <div style={{ color: '#8000ff', fontWeight: 600 }}>
                     Location
                   </div>
-                  <div style={{ color: '#8888aa' }}>Alagoas, Brasil</div>
+                  <div style={{ color: '#fff' }}>Alagoas, Brasil</div>
                 </div>
               </div>
             </div>

@@ -80,7 +80,7 @@ function Navigation() {
                 onClick={() => scrollToSection(item.href)}
                 style={{
                   fontSize: '14px',
-                  color: '#8888aa',
+                  color: '#fff',
                   background: 'none',
                   border: 'none',
                   cursor: 'pointer',
@@ -88,7 +88,7 @@ function Navigation() {
                   transition: 'color 0.3s ease',
                 }}
                 onMouseEnter={(e) => (e.target.style.color = '#00ffff')}
-                onMouseLeave={(e) => (e.target.style.color = '#8888aa')}
+                onMouseLeave={(e) => (e.target.style.color = '#fff')}
               >
                 {item.label}
               </button>
@@ -128,7 +128,7 @@ function Navigation() {
                   style={{
                     textAlign: 'left',
                     padding: '8px 16px',
-                    color: '#8888aa',
+                    color: '#fff',
                     background: 'none',
                     border: 'none',
                     borderRadius: '4px',
@@ -141,7 +141,7 @@ function Navigation() {
                     e.target.style.backgroundColor = 'rgba(0, 255, 255, 0.05)'
                   }}
                   onMouseLeave={(e) => {
-                    e.target.style.color = '#8888aa'
+                    e.target.style.color = '#fff'
                     e.target.style.backgroundColor = 'transparent'
                   }}
                 >

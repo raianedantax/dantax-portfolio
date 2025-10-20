@@ -11,40 +11,40 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'QuantumGrid OS',
+      title: 'Projeto 1',
       category: 'Web Platform',
       description:
-        'Next-generation cloud operating system with real-time collaboration and AI-powered workflows.',
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
       technologies: ['React', 'TypeScript', 'WebGL', 'Node.js', 'PostgreSQL'],
       icon: Layers,
       glowColor: '#00ffff',
     },
     {
       id: 2,
-      title: 'NeuralSync API',
+      title: 'Projeto 2',
       category: 'Backend Infrastructure',
       description:
-        'High-performance microservices architecture handling 10M+ requests per day with 99.99% uptime.',
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
       technologies: ['GraphQL', 'Redis', 'Docker', 'Kubernetes', 'MongoDB'],
       icon: Database,
       glowColor: '#ff00ff',
     },
     {
       id: 3,
-      title: 'CyberWallet Pro',
+      title: 'Projeto 3',
       category: 'Mobile Application',
       description:
-        'Secure cryptocurrency management app with biometric authentication and quantum encryption.',
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
       technologies: ['React Native', 'Web3.js', 'Firebase', 'Solidity'],
       icon: Smartphone,
       glowColor: '#8000ff',
     },
     {
       id: 4,
-      title: 'HoloCommerce',
+      title: 'Projeto 4',
       category: 'E-Commerce Platform',
       description:
-        'Immersive 3D shopping experience with AR product visualization and AI recommendations.',
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
       technologies: ['Three.js', 'Next.js', 'Stripe', 'TensorFlow.js'],
       icon: Globe,
       glowColor: '#00ff88',
@@ -108,7 +108,7 @@ function Projects() {
           <p
             style={{
               fontSize: '18px',
-              color: '#8888aa',
+              color: '#fff',
               marginTop: '24px',
               maxWidth: '512px',
               margin: '24px auto 0',
@@ -212,7 +212,13 @@ function Projects() {
                     {project.title}
                   </h3>
 
-                  <p style={{ color: '#8888aa', lineHeight: 1.6 }}>
+                  <p
+                    style={{
+                      color: '#ffffffff',
+                      lineHeight: 1.6,
+                      fontWeight: 600,
+                    }}
+                  >
                     {project.description}
                   </p>
                 </div>
@@ -236,7 +242,7 @@ function Projects() {
                           borderRadius: '9999px',
                           backgroundColor: '#1a1a28',
                           border: '1px solid rgba(0, 255, 255, 0.2)',
-                          color: '#8888aa',
+                          color: '#fff',
                         }}
                       >
                         {tech}

@@ -108,7 +108,7 @@ function About() {
                     alignItems: 'center',
                     justifyContent: 'center',
                     fontSize: '18px',
-                    color: '#8888aa',
+                    color: '#fff',
                   }}
                 >
                   <img
@@ -141,7 +141,7 @@ function About() {
             <p
               style={{
                 fontSize: '18px',
-                color: '#8888aa',
+                color: '#fff',
                 lineHeight: 1.7,
                 marginBottom: '24px',
               }}
@@ -161,7 +161,7 @@ function About() {
             <p
               style={{
                 fontSize: '18px',
-                color: '#8888aa',
+                color: '#fff',
                 lineHeight: 1.7,
                 marginBottom: '24px',
               }}
@@ -217,7 +217,7 @@ function About() {
                 >
                   {skill.title}
                 </h4>
-                <p style={{ fontSize: '14px', color: '#8888aa' }}>
+                <p style={{ fontSize: '15px', color: '#fff' }}>
                   {skill.description}
                 </p>
               </div>

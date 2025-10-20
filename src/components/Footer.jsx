@@ -44,7 +44,7 @@ function Footer() {
               />
               <div></div>
             </div>
-            <p style={{ color: '#8888aa', maxWidth: '400px', lineHeight: 1.6 }}>
+            <p style={{ color: '#fff', maxWidth: '400px', lineHeight: 1.6 }}>
               Transforming ideas into immersive digital realities through
               cutting-edge web technologies and innovative design solutions.
             </p>
@@ -77,7 +77,7 @@ function Footer() {
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
-                      color: '#8888aa',
+                      color: '#fff',
                       textDecoration: 'none',
                       transition: 'all 0.3s ease',
                     }}
@@ -89,7 +89,7 @@ function Footer() {
                     onMouseLeave={(e) => {
                       e.target.style.borderColor = 'rgba(0, 255, 255, 0.3)'
                       e.target.style.backgroundColor = 'transparent'
-                      e.target.style.color = '#8888aa'
+                      e.target.style.color = '#fff'
                     }}
                     aria-label={link.label}
                   >
@@ -121,7 +121,7 @@ function Footer() {
             gap: '16px',
           }}
         >
-          <div style={{ color: '#8888aa', fontSize: '14px' }}>
+          <div style={{ color: '#fff', fontSize: '14px' }}>
             © 2025 dantaX. All rights reserved.
           </div>
         </div>

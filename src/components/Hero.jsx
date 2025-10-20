@@ -103,7 +103,7 @@ function Hero() {
         <p
           style={{
             fontSize: 'clamp(1.25rem, 3vw, 2rem)',
-            color: '#8888aa',
+            color: '#fff',
             marginBottom: '48px',
             maxWidth: '768px',
             margin: '0 auto 48px',
